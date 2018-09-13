@@ -80,10 +80,10 @@
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 491408,
-    "blockhash": "0005df4cfdcaba340b50f59eb2d434739b1447f716b4a877e99fea082b8a4842",
-    "txhash": "14623f0f33ae9ed6e4b321b536b0092b7f6124736b123d5ac623107a3f91cf0b",
-    "address": "AeTXqQdHLJGug6PdaQFvQZvjPM9E8wDV8u"
+    "blockindex": 0,
+    "blockhash": "",
+    "txhash": "",
+    "address": ""
   },
 
   // market settings
