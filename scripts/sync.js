@@ -117,8 +117,6 @@ function exit() {
   });
 }
 
-console.log(settings)
-
 var dbString = 'mongodb://' + settings.dbsettings.user;
 dbString = dbString + ':' + settings.dbsettings.password;
 dbString = dbString + '@' + settings.dbsettings.address;
