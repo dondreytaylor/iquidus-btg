@@ -35,7 +35,7 @@
   "dbsettings": {
     "user": "iquidus",
     "password": "3xp!0reR",
-    "database": "btg-explorerdb",
+    "database": "explorerdb",
     "address": "192.168.1.10",
     "port": 27017
   },
