@@ -29,5 +29,5 @@ node_modules
 *.ico
 *.png
 
-#settings.json
+settings.json
 start-mongo.sh
