@@ -140,7 +140,7 @@ html
                   span.menu-text #{settings.locale.menu_api}
     .col-md-12
       .row.text-center
-        .col-md-2
+        .col-md-4
           .panel.panel-default.hidden-sm.hidden-xs
             .panel-heading
               if settings.nethash_units == 'K'
@@ -162,7 +162,7 @@ html
                label#lblX1
               else
                label#hashrate -
-        .col-md-2
+        .col-md-4
           .panel.panel-default.hidden-sm.hidden-xs
             .panel-heading
               strong #{settings.locale.difficulty}
@@ -173,7 +173,7 @@ html
                label#difficultyHybrid -
               else
                label#difficulty -
-        .col-md-2
+        .col-md-4
           .panel.panel-default.hidden-sm.hidden-xs
             .panel-heading
               strong #{settings.locale.ex_supply} (#{settings.symbol})
