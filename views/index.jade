@@ -3,8 +3,8 @@ extends layout
 block content
   script.
     $(document).ready(function(){
-      var stable = $('#block-table').dataTable( {  
-        autoWidth: true,      
+      var stable = $('#block-table').dataTable( {
+        autoWidth: true,
         searching: true,
         ordering: false,
         responsive: true,
@@ -29,8 +29,8 @@ block content
           //{ data: 'time', width: '20%' },
         ]
       });
-      var btable = $('#recent-blocks-table').dataTable( {  
-        autoWidth: true,      
+      var btable = $('#recent-blocks-table').dataTable( {
+        autoWidth: true,
         searching: false,
         ordering: false,
         responsive: true,
@@ -55,8 +55,8 @@ block content
           { data: 'timestamp', width: '52%' },
         ]
       });
-      var rtable = $('#recent-table').dataTable( {  
-        autoWidth: true,      
+      var rtable = $('#recent-table').dataTable( {
+        autoWidth: true,
         searching: false,
         ordering: false,
         responsive: true,
@@ -90,23 +90,23 @@ block content
         btable.api().ajax.reload(null, false);
         rtable.api().ajax.reload(null, false);
         stable.api().ajax.reload(null, false);
-      }, 60000 );
+      }, 20000 );
     });
   .row
     .col-md-12
-      if error !== null        
+      if error !== null
         .alert.alert-danger.alert-dismissable(role='alert')
           button.close(type='button', data-dismiss='alert') ×
           strong #{settings.locale.ex_error} : #{error}
-      if warning !== null        
+      if warning !== null
         .alert.alert-warning.alert-dismissable(role='alert')
           button.close(type='button', data-dismiss='alert') ×
           strong #{settings.locale.ex_warning} #{warning}
- 
+
   .col-md-12
     .panel.panel-default
       .panel-heading
-        strong Latest Blocks  
+        strong Latest Blocks
       table#recent-blocks-table.table.table-bordered.table-striped
         thead
           tr
@@ -128,5 +128,3 @@ block content
             th.text-center #{settings.locale.timestamp}
         tbody.text-center
     .footer-padding
-      
-              
