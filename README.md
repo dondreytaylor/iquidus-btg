@@ -1,12 +1,7 @@
-Iquidus Explorer- BTG edition - 1.6.1
+Iquidus Explorer- Bithereum edition - 1.6.1
 ================
 
 An open source block explorer written in node.js.
-
-### See it in action
-
-*  [Bitcoin Gold](http://btgblocks.com)
-
 
 ### Requires
 
